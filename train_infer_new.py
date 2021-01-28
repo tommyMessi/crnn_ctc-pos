@@ -261,17 +261,7 @@ class Trainer(object):
                 break
 
         return meta_exists, meta_file_name
-# RecognitionTrainEngineServiceServicer(cfg_name='resnet',chars_file='./data/chars/lexicon_fix.txt',
-#                                               train_txt='/datayes/jihang.zhang/crnn_data/train_data_20190122/train_data_all.txt',
-#                                               val_txt='/datayes/jihang.zhang/crnn_data/val/tmp_labels.txt',
-#                                               test_txt='/datayes/jihang.zhang/crnn_data/test/tmp_labels.txt',
-#                                               restore=True,
-#                                               log_dir='./output_20190122/log',
-#                                               log_step=50,
-#                                               val_step=100,
-#                                               ckpt_dir='./output_20190122/checkpoint/default',
-#                                               result_dir='./output_20190122/result'), server)
-
+# 
 # self, log_dir, restore, log_step, ckpt_dir, val_step, cfg_name, chars_file, train_txt, val_txt, test_txt, args
 
 def main():
